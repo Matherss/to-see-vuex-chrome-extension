@@ -1,0 +1,43 @@
+.tsvce-popup {
+  z-index: 9900;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.tsvce-popup__content {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  gap: 12px;
+  padding: 20px;
+  margin: 50px;
+  max-width: 320px;
+  max-height: 90vh;
+  background: #fff;
+}
+.tsvce-button {
+  padding: 4px;
+  border: none;
+  border-radius: 4px;
+  background: #009dff;
+  color: #000;
+}
+.tsvce-button:hover {
+  background: #4dbbff;
+}
+.tsvce-close {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: rgb(255, 98, 98);
+  font-size: 19px;
+  font-weight: 600;
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "To see vuex chrome extension",
+  "description": "Chrome extension for see vuex store content with interface",
+  "version": "1.0",
+  "permissions":  ["activeTab", "scripting", "contextMenus"],
+  "web_accessible_resources": [
+    { 
+      "resources": ["*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
